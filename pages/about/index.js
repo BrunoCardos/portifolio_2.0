@@ -19,19 +19,24 @@ const aboutData = [
             {
                 title: 'Web Development',
                 icons: [
-                    <FaHtml5/>,
-                    <FaCss3/>,
-                    <FaJs/>,
-                    <FaReact/>,
-                    <SiNextdotjs/>,
-                    <SiFramer/>,
-                    <FaWordpress/>,
+                    <FaHtml5 key="html5"/>,
+                    <FaCss3 key="css3"/>,
+                    <FaJs key="javascript"/>,
+                    <FaReact key="react"/>,
+                    <SiNextdotjs key="nextjs"/>,
+                    <SiFramer key="framer"/>,
+                    <FaWordpress key="wordpress"/>,
                 ],
             },
             {
                 title: 'UI/UX Design',
-                icons: [<FaFigma/>, <SiAdobexd/>, <SiAdobephotoshop/>],
-            },
+                icons: [
+                    <FaFigma key="figma"/>,
+                    <SiAdobexd key="adobe-xd"/>,
+                    <SiAdobephotoshop key="adobe-photoshop"/>,
+                ],
+            }
+
         ],
     },
     {
