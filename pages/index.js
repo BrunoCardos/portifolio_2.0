@@ -27,7 +27,7 @@ const Home = () => {
                         Code, Creativity, and Beyond <br/> Transforming Ideas Into:<br/>
                         <span className='text-accent'>{text}<Cursor cursorStyle='|' cursorColor='#ccc'/></span>
                     </motion.h1>
-                    <motion.p variants={fadeIn('down', 0.3)} initial="hidden" animate="show" exit="hidden"
+                    <motion.p variants={fadeIn('up', 0.3)} initial="hidden" animate="show" exit="hidden"
                               className='  mx-auto xl:mx-0 mb-10 xl:mb-16 text-center text-white md:mt-10'>
                         Versatile Full-Stack Developer Proficient in Front-End and Back-End Technologies, Dedicated to
                         Delivering Robust Web Applications with Efficiency and a Strong Emphasis on User-Centric Design.
@@ -35,7 +35,7 @@ const Home = () => {
                     <div className='flex justify-center xl:hidden relative'>
                         <ProjectsBtn/>
                     </div>
-                    <motion.div variants={fadeIn('down', 0.4)} initial="hidden" animate="show" exit="hidden"
+                    <motion.div variants={fadeIn('up', 0.4)} initial="hidden" animate="show" exit="hidden"
                                 className='hidden xl:flex justify-center md:mt-10'>
                         <ProjectsBtn/>
                     </motion.div>
