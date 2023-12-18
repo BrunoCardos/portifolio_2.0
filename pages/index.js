@@ -24,11 +24,11 @@ const Home = () => {
                     className='text-center md:text-center flex flex-col justify-center xl:pt-40 h-full container mx-auto'>
                     <motion.h1 variants={fadeIn('down', 0.2)} initial="hidden" animate="show" exit="hidden"
                                className='h1 md:mb-30'>
-                        Code, Creativity, and Beyond <br/> Transforming Ideas Into:<br/>
+                        Code, Creativity, and Beyond. <br/> Transforming Ideas Into:<br/>
                         <span className='text-accent'>{text}<Cursor cursorStyle='|' cursorColor='#ccc'/></span>
                     </motion.h1>
                     <motion.p variants={fadeIn('up', 0.3)} initial="hidden" animate="show" exit="hidden"
-                              className='  mx-auto xl:mx-0 mb-10 xl:mb-16 text-center text-white md:mt-10'>
+                              className='  mx-auto xl:mx-0 mb-10 xl:mb-16 text-center text-white md:mt-10 text-[18px]'>
                         Versatile Full-Stack Developer Proficient in Front-End and Back-End Technologies, Dedicated to
                         Delivering Robust Web Applications with Efficiency and a Strong Emphasis on User-Centric Design.
                     </motion.p>
