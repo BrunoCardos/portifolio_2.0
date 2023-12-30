@@ -3,7 +3,7 @@ import {RiFacebookFill, RiInstagramLine, RiLinkedinBoxFill} from "react-icons/ri
 import {IoLogoGithub} from "react-icons/io";
 
 const Socials = () => {
-    return <div className='flex items-center gap-x-5 text-lg z-80'>
+    return <div className='flex items-center gap-x-5 text-[25px] z-80'>
         <Link href={'https://www.linkedin.com/in/bruno-cardoso-481b81211/'}
               className='hover:text-accent transition-all duration-300'>
             <RiLinkedinBoxFill/>
