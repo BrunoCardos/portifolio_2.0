@@ -83,7 +83,7 @@ const About = () => {
         </motion.div>
         <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
 
-            <div className='flex-1 flex flex-col justify-center mt-10 md:mb-14 md:-mt-12'>
+            <div className='flex-1 flex flex-col justify-center mt-15 md:mb-14 md:-mt-12'>
                 <motion.h2
                     variants={fadeIn('right', 0.2)}
                     initial="hidden"
@@ -130,7 +130,7 @@ const About = () => {
                             <div className='font-light mb-2 md:mb-0'>{item.title}</div>
                             <div className='hidden md:flex'>-</div>
                             <div>{item.stage}</div>
-                            <div className='flex gap-x-4'>
+                            <div className='flex gap-x-4 mt-5 md:mt-0'>
                                 {item.icons?.map((icon, index) => {
                                     return <div key={index} className='text-2xl text-white'>{icon}</div>
                                 })}
