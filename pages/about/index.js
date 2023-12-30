@@ -1,14 +1,12 @@
 // icons
-import {FaCss3, FaFigma, FaHtml5, FaJs, FaReact, FaWordpress,} from "react-icons/fa";
-
-import {SiAdobephotoshop, SiAdobexd, SiFramer, SiNextdotjs,} from "react-icons/si";
+import {FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact,} from "react-icons/fa";
+import {SiExpress, SiFramer, SiNestjs, SiNextdotjs, SiTailwindcss, SiPython, SiMysql, SiMongodb} from "react-icons/si";
 
 import React, {useState} from "react";
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 import {motion} from "framer-motion";
 import {fadeIn} from "../../variants";
-import ContUp from 'react-countup'
 
 
 //  data
@@ -17,7 +15,7 @@ const aboutData = [
         title: 'skills',
         info: [
             {
-                title: 'Web Development',
+                title: 'Font-End Development',
                 icons: [
                     <FaHtml5 key="html5"/>,
                     <FaCss3 key="css3"/>,
@@ -25,51 +23,38 @@ const aboutData = [
                     <FaReact key="react"/>,
                     <SiNextdotjs key="nextjs"/>,
                     <SiFramer key="framer"/>,
-                    <FaWordpress key="wordpress"/>,
+                    <SiTailwindcss key="tailwind"/>,
                 ],
             },
             {
-                title: 'UI/UX Design',
+                title: 'Back-End Development',
                 icons: [
-                    <FaFigma key="figma"/>,
-                    <SiAdobexd key="adobe-xd"/>,
-                    <SiAdobephotoshop key="adobe-photoshop"/>,
+                    <FaNodeJs key="nodeJs"/>,
+                    <SiExpress key="express"/>,
+                    <SiNestjs key="nestjs"/>,
+                    <SiPython key="python"/>,
+                    <SiMysql key="mysql"/>,
+                    <SiMongodb key="mongodb\"/>,
                 ],
             }
 
         ],
     },
-    {
-        title: 'awards',
-        info: [
-            {
-                title: 'Webby Awards - Honoree',
-                stage: '2011 - 2012',
-            },
-            {
-                title: 'Adobe Design Achievement Awards - Finalist',
-                stage: '2009 - 2010',
-            },
-        ],
-    },
+
     {
         title: 'experience',
         info: [
             {
-                title: 'UX/UI Designer - XYZ Company',
-                stage: '2012 - 2023',
+                title: 'Web Designer - Paginas Amarelas',
+                stage: '12/2022 – 08/2023',
             },
             {
-                title: 'Web Developer - ABC Agency',
-                stage: '2010 - 2012',
-            },
-            {
-                title: 'Intern - DEF Corporation',
-                stage: '2008 - 2010',
+                title: 'Full Stack Developer - Sintaxy',
+                stage: '2023',
             },
         ],
     },
-    {
+   /* {
         title: 'credentials',
         info: [
             {
@@ -85,7 +70,7 @@ const aboutData = [
                 stage: '2006',
             },
         ],
-    },
+    },*/
 ];
 
 const About = () => {
@@ -98,7 +83,7 @@ const About = () => {
         </motion.div>
         <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
 
-            <div className='flex-1 flex flex-col justify-center'>
+            <div className='flex-1 flex flex-col justify-center md:mb-14 md:-mt-12'>
                 <motion.h2
                     variants={fadeIn('right', 0.2)}
                     initial="hidden"
@@ -114,11 +99,10 @@ const About = () => {
                     animate="show"
                     exit="hidden"
                 >
-                    10 years ago, I began
-                    freelancing as a developer. Since then, I`ve done remote work from agencies, consulted for startups,
-                    and collaborated on digital products for business and consumer use.
+                    My commitment to efficiency, coupled with a keen focus on user-centric design principles, ensures
+                    the delivery of seamless digital experiences that meet and exceed client expectations
                 </motion.p>
-                <motion.div
+                {/* <motion.div
                     className='hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8'
                     variants={fadeIn('right', 0.6)}
                     initial="hidden"
@@ -166,7 +150,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                </motion.div>
+                </motion.div>*/}
             </div>
 
             <motion.div
