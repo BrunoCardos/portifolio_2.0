@@ -21,7 +21,7 @@ const Home = () => {
         <div className='bg-primary/60 h-full text-center'>
             <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
                 <div
-                    className='text-center md:text-center flex flex-col justify-center xl:pt-40 h-full container mx-auto pt-5'>
+                    className='text-center md:text-center flex flex-col justify-center xl:pt-40 h-full container mx-auto'>
                     <motion.h1 variants={fadeIn('down', 0.2)} initial="hidden" animate="show" exit="hidden"
                                className='h1 md:mb-30'>
                         Code, Creativity, and Beyond. <br/> Transforming Ideas Into:<br/>
