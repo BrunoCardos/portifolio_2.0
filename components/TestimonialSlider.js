@@ -22,14 +22,14 @@ const testimonialData = [
         name: 'Anne Smith',
         position: 'Customer',
         message:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+            'In terms of collaboration, this fullstack developer was a true team player. He actively participated in discussions, shared valuable insights, and consistently met project deadlines. His communication skills were excellent, ensuring that everyone on the team was on the same page throughout the development process',
     },
     {
         image: '/t-avt-2.png',
         name: 'Jane Doe',
         position: 'Customer',
         message:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+            'I highly recommend this fullstack developer for his technical expertise, professionalism, and collaborative approach. Working with him was a positive experience, and I would eagerly engage in future projects together.',
     },
 ];
 
