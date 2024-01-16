@@ -9,25 +9,27 @@ import {FaQuoteLeft} from "react-icons/fa";
 // testimonial data
 const testimonialData = [
     {
+        image: '/t-avt-3.jpg',
+        name: 'Stefan Vitoria',
+        position: 'Full Stack Developer',
+        message:
+            'I had the pleasure of working with Bruno Cardoso on a recent project, and I\'m genuinely impressed with ' +
+            'his skills and dedication. He demonstrated a deep understanding of both front-end and back-end technologies.' +
+            ' What set him apart was his ability to translate complex requirements into elegant and efficient code.',
+    },
+    {
         image: '/t-avt-1.png',
         name: 'Anne Smith',
         position: 'Customer',
         message:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+            'In terms of collaboration, this fullstack developer was a true team player. He actively participated in discussions, shared valuable insights, and consistently met project deadlines. His communication skills were excellent, ensuring that everyone on the team was on the same page throughout the development process',
     },
     {
         image: '/t-avt-2.png',
         name: 'Jane Doe',
         position: 'Customer',
         message:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
-    },
-    {
-        image: '/t-avt-3.png',
-        name: 'Jhon Doe',
-        position: 'Customer',
-        message:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+            'I highly recommend this fullstack developer for his technical expertise, professionalism, and collaborative approach. Working with him was a positive experience, and I would eagerly engage in future projects together.',
     },
 ];
 
@@ -51,7 +53,8 @@ const TestimonialSlider = () => {
                                 <div className="flex flex-col justify-center text-center">
                                     {/* avatar */}
                                     <div className="mb-2 mx-auto">
-                                        <Image src={person.image} width={100} height={100} alt=""/>
+                                        <Image src={person.image} width={100} height={100} alt=""
+                                               className="rounded-full"/>
                                     </div>
                                     {/* name */}
                                     <div className="text-lg">{person.name}</div>
