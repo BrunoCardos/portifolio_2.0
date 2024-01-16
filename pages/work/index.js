@@ -27,7 +27,7 @@ const Work = () => {
                             exit="hidden"
                             className='mb-4 max-w-[400px] mx-auto lg:mx-0'
                         >
-                            Explore the diverse portfolio of projects I've worked on. Each project is a testament to my
+                            Explore the diverse portfolio of projects I{'\''}ve worked on. Each project is a testament to my
                             commitment to excellence and my ability to meet and exceed client expectations.
                         </motion.p>
                     </div>
